@@ -10,9 +10,9 @@ EXPOSE 5000
 
 COPY . /app/
 RUN yarn
-RUN yarn  build
-RUN yarn global add serve
+#RUN yarn  build
+#RUN yarn global add serve
 
 
 
-CMD ["serve", "-s", "build"]
+CMD ["yarn", "start"]
