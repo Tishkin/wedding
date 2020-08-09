@@ -1,3 +1,3 @@
-import Question from "./question";
+import QuestionItem from "./question-item";
 
-export default Question;
+export default QuestionItem;

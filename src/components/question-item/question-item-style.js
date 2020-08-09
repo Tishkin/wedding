@@ -1,9 +1,9 @@
 import {makeStyles} from "@material-ui/core/styles";
 
-export const useStylesQuestion = makeStyles((theme) => ({
+export const useStylesQuestionItem = makeStyles((theme) => ({
     questionWrap: {
-        width: '100%',
-        margin: theme.spacing(3)
+        // minWidth: '100%',
+
     },
     root: {
         minWidth: 275,
@@ -15,6 +15,7 @@ export const useStylesQuestion = makeStyles((theme) => ({
         marginBottom: 12,
     },
     question: {
+
         marginBottom: theme.spacing(2),
         padding: theme.spacing(2),
         textAlign: 'center'
@@ -24,27 +25,32 @@ export const useStylesQuestion = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         margin: theme.spacing(2),
-    },
-    button: {
 
     },
-    radioGroupWrap:{
-      width:'100%'
+    button: {},
+    radioGroupWrap: {
+        width: '100%'
     },
     radioGroup: {
         display: 'flex',
 
     },
-    group:{
+    group: {
         display: 'flex',
-        width:'100%',
-        justifyContent:"space-around",
-        margin:theme.spacing(1,0),
+        width: '100%',
+        justifyContent: "space-around",
+        margin: theme.spacing(1, 0),
     },
-    control:{
-        fontSize:'40px',
-        margin:theme.spacing(1,0),
-        width:'100%',
-        maxWidth:'49%'
+    control: {
+        fontSize: '40px',
+        margin: theme.spacing(1, 0),
+        width: '100%',
+        maxWidth: '49%'
+    },
+    next: {
+        display: "none"
+    },
+    controlLabel:{
+        fontSize:'1.5rem'
     }
 }));
