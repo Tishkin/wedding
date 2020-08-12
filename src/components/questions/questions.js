@@ -8,8 +8,8 @@ import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
 import {Controller} from "swiper";
 import useSound from "use-sound";
-import fail from "../../sound/zvuk-grustnyj-trombon_(Cool.DJ).mp3";
-import success from '../../sound/Leningrad-i-Yuliya-Kogan_-_Huy-Menya-Slomishzhizn-Horosha (mp3cut.net).mp3'
+import fail from "../../sound/fail.mp3";
+import success from '../../sound/success.mp3'
 
 
 const Questions = () => {
