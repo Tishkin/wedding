@@ -15,7 +15,6 @@ import Radio from "@material-ui/core/Radio";
 import StyledRadio from "../styled-radio";
 import green from "@material-ui/core/colors/green";
 import withStyles from "@material-ui/core/styles/withStyles";
-import fail from '../../sound/zvuk-grustnyj-trombon_(Cool.DJ).mp3'
 
 const ColorButton = withStyles((theme) => ({
     root: {
